@@ -1,0 +1,1 @@
+## side script for one kid's friend

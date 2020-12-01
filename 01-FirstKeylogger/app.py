@@ -28,7 +28,7 @@ def save(keys):
 # event onKeyPress release
 def release(key):
     if key == key.esc:
-        return false
+        return False
 
 # Listener
 with Listener(on_press=press, on_release=release) as listener:

@@ -1,5 +1,5 @@
+import tkinter
 from tkinter import *
-from tkinter import ttk
 from tkinter.filedialog import askopenfilename, asksaveasfilename
 
 def open_file():
@@ -15,7 +15,7 @@ def save_file():
     with open(file, "w") as data:
         data.write(text)
 
-window = Tk()
+window = tkinter.Tk()
 window.title("Text Editor")
 
 menubar = Menu(window)
